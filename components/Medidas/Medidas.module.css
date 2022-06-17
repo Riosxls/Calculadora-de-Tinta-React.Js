@@ -1,0 +1,17 @@
+.medidas {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.medidas label {
+  display: block;
+  font-weight: bold;
+}
+
+.medidas-items {
+  display: flex;
+  justify-content: center;
+}
+
