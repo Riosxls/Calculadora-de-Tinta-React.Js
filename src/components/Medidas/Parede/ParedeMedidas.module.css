@@ -1,0 +1,13 @@
+.parede-dropdown {
+  display: flex;
+  padding-top: 20px;
+}
+
+.parede-item {
+  display: flex;
+}
+
+.parede-text {
+  padding-top: 2px;
+  margin-right: 10px;
+}
