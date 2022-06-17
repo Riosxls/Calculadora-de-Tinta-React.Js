@@ -1,0 +1,9 @@
+.dropdown {
+  display: flex;
+  padding-top: 20px;
+}
+
+.dropdown-text {
+  padding-top: 2px;
+  margin-right: 10px;
+}
