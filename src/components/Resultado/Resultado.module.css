@@ -9,12 +9,13 @@
 
 .resultado-tinta {
   display: flex;
+  padding: 2rem 0rem;
 }
 
 .resultado-parede {
   display: flex;
   text-align: center;
-  margin: 2rem auto;
+  margin: 2rem 2rem 0rem 2rem;
   padding: 2rem;
   width: fit-content;
   justify-content: center;
@@ -27,6 +28,7 @@
 
 .resultado-item label {
   display: block;
+  padding: 10px 0px;
 }
 
 .textarea{
