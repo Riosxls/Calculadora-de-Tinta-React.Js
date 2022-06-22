@@ -26,13 +26,14 @@ const MedidasItem = (props) => {
     setParedeComprimento(() => comprimento);
     const areaTotalEsquadrias = qtdPortas * porta + qtdJanelas * janela;
     const areaTotalParede = altura * comprimento;
+    console.log("NUM: " + props.num);
     props.onGetAreaParede(areaTotalParede);
     props.onGetAreaEsquadrias(areaTotalEsquadrias);
   };
 
   return (
     <div className={styles.input}>
-      <form id='medidas-form' onSubmit={submitHandler}>
+      <form id="medidas-form" onSubmit={submitHandler}>
         <div className={styles.medidas}>
           <label>{props.num}ªParede</label>
           <div className={styles["medida-item"]}>
@@ -47,6 +48,7 @@ const MedidasItem = (props) => {
               onQtdJanelas={(janela) => setQtdJanelas(janela)}
             />
           </div>
+          <button type="submit">Definir Medida</button>
         </div>
       </form>
     </div>
