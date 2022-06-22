@@ -40,3 +40,12 @@
   font-weight: 600;
   padding: 20px 0px 30px 0px;
 }
+
+.resultado-total {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.resultado-total-item {
+  padding: 10px;
+}
